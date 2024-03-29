@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY FEET CLOTHING STORE</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" >
+    <!--This is how we attach bootstrap to a file-->
+    <!--Another way is by using a CDN from the bootstrap website-->
+</head>
+<!--Home page will have a navbar. This nav bar links to other pages-->
+<!--Have a search button, sign in and a list to shop for cloths by age-->
+<body>
+
+
+<!--paragraph to explain what the page is about-->
+<header class="jumbotron jumbotron-fluid text-center bg-dark text-white">
+    <div class="container">
+      <h1 class="display-4">Welcome to Happy Feet Clothing Store</h1>
+      <p class="lead">Find the latest trends and styles for every occasion for your little one.</p>
+      <a href="products.html" class="btn btn-primary btn-lg">Shop Now</a>
+    </div>
+  </header>
+
+  <section class="container">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row">
+      <!-- Product cards can be added here -->
+    </div>
+  </section>
+
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <!--This class makes the navbar expand on large screens and collapse on small screens. bg-body-tertiary indicates the bootstrap tertiary color-->
+    <div class="container-fluid">
+        <!--This will span the full width of the viewport, providing a fluid layout for its content-->
+      <a class="navbar-brand" href="#">about--</a>
+      <!--This helps sytle the link in a way to make it stand out-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--this element serves as the toggle button for collapsing and expanding the navbar content, typically used in responsive designs to provide navigation options on small screens.-->
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <!--The navbar-nav: is used for styling withing  the navbar. provides space btwn nav bar and content and enables scrolling for the navbar links when they exceed available space-->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">deals</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a>
+        <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sign in</a></li>
+              <li><a class="dropdown-item" href="#">create profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+             
+         </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">coupons</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    
+      </div>
+    </div>
+  </nav>
+
+
+  <div>
+    <img src="https://ae01.alicdn.com/kf/HTB14GimwaSWBuNjSsrbq6y0mVXaS/Baby-Boys-Clothing-Sets-Newborn-Baby-Girls-Clothes-Set-Long-Sleeve-O-neck-Dinosaur-Unisex-Infant.jpg" class="rounded float-start" alt="pink onesie and pants set">
+
+<img src="https://i.pinimg.com/originals/bc/ab/36/bcab36e9233a17059dfbf8977a859910.jpg" class="rounded float-end" alt="pink top and bottoms">
+
+<img src="https://ae01.alicdn.com/kf/HTB1WCa6nkfb_uJjSsrbq6z6bVXab/2018-Baby-Rompers-Summer-Baby-Girls-Clothing-Sets-Cute-Newborn-Baby-Clothes-Toddler-Baby-Girl-Clothes.jpg" class="rounded float-start" alt="summer rompers">
+
+<img src="https://i.pinimg.com/originals/b5/27/e2/b527e252eecc68abbdad94cf9b911aa1.jpg" class="rounded float-end" alt="Burgundy sweater">
+
+<img src="https://ae01.alicdn.com/kf/HTB1I31CSFXXXXaoXVXXq6xXFXXXV/Babies-3pcs-Letter-Heart-Floral-Clothing-Set-Newborn-Infant-Baby-Boy-Girl-Cotton-Top-Bodysuit-Flower.jpg" class="rounded float-start" alt="newborn infant clothing" height="370px" width="370px">
+
+<img src="https://m.media-amazon.com/images/I/71KruCoNtUL._AC_SX679_.jpg" class="rounded float-end" alt="minnie mouse hoodie"></div>
+<!--this rounds the corners of the image giving it a softer apperance and aligning it to the left-->
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!--The script element help load the Bootstrap Javascrpt file -->
+
+
+
+</body>
+</html>
